@@ -17,23 +17,14 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix  
-  assembled_matrix = [
-    [ENNET_HOUSE]
-    [ENFIELD_TENNIS_ACADEMY]
-]
+  [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
 end    
-#["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
 
 
 
 def array_literal_matrix 
- array_literal_matrix = [
-   [ENNET_HOUSE.sort]
-   [ENFIELD_TENNIS_ACADEMY.sort]
-]
+   [ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort]
 end
-   
-#["Bruce Green", "Don Gately", "Joelle van Dyne", "Kate Gompert", "Pat M."]["Gerhard Schtitt", "Hal Incandenza", "Lyle", "Mario Incandenza", "Michael Pemulis"]
 
 
 def matrix_lookup(matrix, row, column)
